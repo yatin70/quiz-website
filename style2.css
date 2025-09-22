@@ -93,3 +93,23 @@ body {
 .category-btn:hover {
   background-color: #1a81b0;
 }
+
+@media (max-width: 480px) {
+  .quiz-container {
+    width: 90%;      /* flexible width for phones */
+    padding: 20px;   /* smaller padding */
+  }
+  .outside {
+    font-size: 60px; /* smaller title */
+  }
+  #nextBtn {
+    bottom: 20px;    /* adjust spacing */
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  #options button {
+    padding: 8px;    /* smaller buttons */
+  }
+}
+
+
